@@ -1,3 +1,29 @@
 body {
-  background: #fafafa;
+  background: #f7eedd;
+}
+.container {
+  display: flex;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.Bot {
+  position: absolute;
+  right: 13rem;
+  top: 50px;
+  border-radius: 18px;
+  background: linear-gradient(145deg, #ffffff, #e3e3e3);
+  box-shadow: 26px 26px 22px #818181, -26px -26px 22px #ffffff;
+}
+.firstSection {
+  width: 60%;
+  position: absolute;
+  left: 8rem;
+  top: 4rem;
+  line-height: 1.6;
+  color: #000;
+  font-weight: bold;
+}
+nav {
+  display: flex;
+  justify-self: center;
 }
